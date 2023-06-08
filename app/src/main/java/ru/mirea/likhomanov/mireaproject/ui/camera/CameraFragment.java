@@ -32,7 +32,7 @@ import java.util.Locale;
 
 import ru.mirea.likhomanov.mireaproject.R;
 import ru.mirea.likhomanov.mireaproject.databinding.FragmentCameraBinding;
-//import ru.mirea.likhomanov.mireaproject.databinding.FragmentCompasBinding;
+
 
 public class CameraFragment extends Fragment {
     private FragmentCameraBinding binding;

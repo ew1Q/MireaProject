@@ -33,6 +33,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MireaProject"
         tools:targetApi="31">
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="ru.mirea.likhomanov.mireaproject.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/paths" />
+        </provider>
         <service
             android:name="ru.mirea.likhomanov.mireaproject.ui.music.PlayerService"
             android:enabled="true"
