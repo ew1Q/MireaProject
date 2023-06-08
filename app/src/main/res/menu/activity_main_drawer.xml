@@ -29,6 +29,10 @@
             android:icon="@android:drawable/ic_menu_compass"
             android:title="Compas" />
         <item
+            android:id="@+id/nav_file"
+            android:icon="@drawable/baseline_file_open_24"
+            android:title="File" />
+        <item
             android:id="@+id/nav_microphone"
             android:icon="@drawable/baseline_mic_24"
             android:title="Microphone" />

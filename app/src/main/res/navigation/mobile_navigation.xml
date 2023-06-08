@@ -66,4 +66,9 @@
         android:name="ru.mirea.likhomanov.mireaproject.ui.network.NetworkFragment"
         android:label="Network"
         tools:layout="@layout/fragment_network"/>
+    <fragment
+        android:id="@+id/nav_file"
+        android:name="ru.mirea.likhomanov.mireaproject.ui.file.FileFragment"
+        android:label="File"
+        tools:layout="@layout/fragment_file"/>
 </navigation>
