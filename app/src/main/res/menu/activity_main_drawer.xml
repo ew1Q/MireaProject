@@ -35,6 +35,10 @@
         <item
             android:id="@+id/nav_profile"
             android:icon="@drawable/baseline_people_24"
+            android:title="Text" />
+        <item
+            android:id="@+id/nav_shared"
+            android:icon="@android:drawable/ic_menu_myplaces"
             android:title="Profile" />
         <item
             android:id="@+id/nav_map"

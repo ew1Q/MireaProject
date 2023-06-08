@@ -47,6 +47,11 @@
         android:label="Profile"
         tools:layout="@layout/fragment_profile"/>
     <fragment
+        android:id="@+id/nav_shared"
+        android:name="ru.mirea.likhomanov.mireaproject.ui.shared.SharedFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_shared"/>
+    <fragment
         android:id="@+id/nav_map"
         android:name="ru.mirea.likhomanov.mireaproject.ui.map.MapFragment"
         android:label="Map"
