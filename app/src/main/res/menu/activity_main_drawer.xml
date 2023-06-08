@@ -44,9 +44,9 @@
             android:id="@+id/nav_map"
             android:icon="@android:drawable/ic_menu_mapmode"
             android:title="Map" />
-        <item
-            android:id="@+id/nav_registration"
-            android:icon="@drawable/baseline_account_balance_24"
-            android:title="Registration" />
+<!--        <item-->
+<!--            android:id="@+id/nav_registration"-->
+<!--            android:icon="@drawable/baseline_account_balance_24"-->
+<!--            android:title="Registration" />-->
     </group>
 </menu>
