@@ -28,8 +28,6 @@ public class Registration extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // Initialization views
-        setContentView(R.layout.activity_main);
-        FirebaseApp.initializeApp(this);
         binding = ActivityRegistrationBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         // [START initialize_auth] Initialize Firebase Auth
