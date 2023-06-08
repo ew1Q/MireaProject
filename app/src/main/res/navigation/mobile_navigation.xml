@@ -61,4 +61,9 @@
         android:name="ru.mirea.likhomanov.mireaproject.Registration"
         android:label="Registration"
         tools:layout="@layout/activity_registration"/>
+    <fragment
+        android:id="@+id/nav_network"
+        android:name="ru.mirea.likhomanov.mireaproject.ui.network.NetworkFragment"
+        android:label="Network"
+        tools:layout="@layout/fragment_network"/>
 </navigation>

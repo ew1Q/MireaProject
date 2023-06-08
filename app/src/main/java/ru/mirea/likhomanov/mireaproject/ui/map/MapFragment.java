@@ -94,7 +94,7 @@ public class MapFragment extends Fragment {
         marker.setPosition(new GeoPoint(55.794229, 37.700772));
         marker.setOnMarkerClickListener(new Marker.OnMarkerClickListener() {
             public boolean onMarkerClick(Marker marker, MapView mapView) {
-                Toast.makeText(mapView.getContext(), "MIREA", Toast.LENGTH_SHORT).show();
+                Toast.makeText(mapView.getContext(), "MIREA\nЧасы работы 09:00–21:00", Toast.LENGTH_SHORT).show();
                 return true;
             }
         });
@@ -106,7 +106,7 @@ public class MapFragment extends Fragment {
         marker2.setPosition(new GeoPoint(55.698894, 37.805699));
         marker2.setOnMarkerClickListener(new Marker.OnMarkerClickListener() {
             public boolean onMarkerClick(Marker marker, MapView mapView) {
-                Toast.makeText(mapView.getContext(), "Buckets Empire", Toast.LENGTH_SHORT).show();
+                Toast.makeText(mapView.getContext(), "Buckets Empire\nЧасы работы 11:00–21:00", Toast.LENGTH_SHORT).show();
                 return true;
             }
         });
@@ -118,7 +118,7 @@ public class MapFragment extends Fragment {
         marker3.setPosition(new GeoPoint(55.780249, 37.593135));
         marker3.setOnMarkerClickListener(new Marker.OnMarkerClickListener() {
             public boolean onMarkerClick(Marker marker, MapView mapView) {
-                Toast.makeText(mapView.getContext(), "ДЕПО", Toast.LENGTH_SHORT).show();
+                Toast.makeText(mapView.getContext(), "ДЕПО\nЧасы работы 10:00–02:00", Toast.LENGTH_SHORT).show();
                 return true;
             }
         });
